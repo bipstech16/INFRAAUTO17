@@ -21,7 +21,8 @@ jobs:
     steps:
       - name: Terraform installer
         uses: autero1/action-terraform@v3.0.1          
-    
+        with:
+          terraform_version: 1.7.5
 
 
 
